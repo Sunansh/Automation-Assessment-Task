@@ -26,10 +26,11 @@ public class AccountCreationSteps {
 
     @When("User fills in the registration form with valid details")
     public void User_fills_registration_form_with_valid_details() {
+	String randomMail = "user" + UUID.randomUUID().toString() + "@gmail.com";
         CreateNewAccount createNewAccount = new CreateNewAccount(driver);
         createNewAccount.firstName("Sunansh");
         createNewAccount.lastName("Nagar");
-        createNewAccount.emailAdd("snagar@gmail.com");
+        createNewAccount.emailAdd(randomMail);
         createNewAccount.password("Password@123");
         createNewAccount.confirmPass("Password@123");
         createNewAccount.createAccount();
