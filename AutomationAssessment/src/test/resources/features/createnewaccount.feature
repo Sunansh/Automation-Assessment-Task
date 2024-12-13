@@ -46,7 +46,7 @@
 	      
 	   #Negative Scenario: Invalid email
 	   @unsuccessful_account_creation
-	   Scenario: User fails to create new account with missing mandatory fields
+	   Scenario: User fails to create new account with invalid email
     Given User is on the homepage
     When User navigates to the create account page
     And User fills in the registration form with invalid email
