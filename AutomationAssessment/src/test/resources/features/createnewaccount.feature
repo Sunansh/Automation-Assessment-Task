@@ -50,7 +50,7 @@
     Given User is on the homepage
     When User navigates to the create account page
     And User fills in the registration form with invalid email
-    Then User should see an weak message indicating invalid email address
+    Then User should see an error message indicating invalid email address
     
     
      #Negative Scenario: Weak Password
