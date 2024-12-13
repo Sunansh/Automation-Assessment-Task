@@ -37,11 +37,11 @@
 	    Then User should see an error message for the <field>
 	
 	    Examples: 
-	      | field  				|
-	      | firstname 		|
-	      | lastname 			|
-	      | email_address |
-	      | password 			|
+	      | field  		 |
+	      | firstname        |
+	      | lastname 	 |
+	      | email_address    |
+	      | password 	 |
 	      | confirm_password |
 	      
 	   #Negative Scenario: Invalid email
