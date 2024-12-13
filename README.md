@@ -9,7 +9,7 @@ Project Structure
 /src/test/java/com.signup.runner/Runner.java: Cucumber test runner to execute the feature files.
 /src/test/resources/features: Contains the .feature files written in Gherkin format.
 /pom.xml: Maven configuration file to manage dependencies.
-/test-cases.xlsx: Excel file documenting Traditional and BDD-style test cases.
+/Incubyte Automation Assessment.xlsx: Excel file documenting Traditional and BDD-style test cases.
 Prerequisites
 Before running the tests, ensure you have the following installed:
 
@@ -33,7 +33,7 @@ mvn test
 This will run all Cucumber tests defined in the .feature files.
 
 Test Cases
-The test cases for the sign-up and login flow are written in BDD format and are documented in the test-cases.xlsx file.
+The test cases for the sign-up and login flow are written in BDD format and are documented in the Incubyte Automation Assessment.xlsx file.
 
 Dependencies
 This project uses the following dependencies:
